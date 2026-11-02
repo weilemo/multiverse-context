@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.runtime/
+.coverage
+build/
+dist/
+artifacts/private/
+/artifacts/three-layer-2026-11-01/raw-export/
+/artifacts/

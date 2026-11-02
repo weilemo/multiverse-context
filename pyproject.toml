@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiverse-context"
+version = "0.3.1"
+description = "Versioned research summaries and progressive context for Multiverse"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mvctx = "multiverse_context.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
